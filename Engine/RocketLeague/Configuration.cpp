@@ -1,4 +1,5 @@
-﻿#include "Configuration.hpp"
+#include "Configuration.hpp"
+#include "Offsets.hpp"
 
 /*
 # ========================================================================================= #
@@ -37,12 +38,12 @@ namespace Configuration
     const std::string GObjectsString =          "";
     const uint8_t* GObjectsPattern =            (uint8_t*)"";
     const char* GObjectsMask =                  (char*)"";
-    const uintptr_t GObjectsOffset =            0x23d6dc8;
+    const uintptr_t GObjectsOffset = Offsets::GObjects;
 
     const std::string GNamesString =            "";
     const uint8_t* GNamesPattern =              (uint8_t*)"";
     const char* GNamesMask =                    (char*)"";
-    const uintptr_t GNamesOffset =              0x23d6d80;
+    const uintptr_t GNamesOffset   = Offsets::GNames;
 
     const std::string GameName =                "RocketLeague";
     const std::string GameNameShort =           "RLSDK";
