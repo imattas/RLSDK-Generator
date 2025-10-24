@@ -18,5 +18,6 @@ Make sure that when using this that you update the offsets in the **Offsets.hpp*
 ---
 
 ## Downloading
+```bash
 git clone https://github.com/imattas/rocket-league--offset-dumper.git
 cd rocket-league-offset-dumper
