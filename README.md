@@ -7,4 +7,4 @@
 ---
 
 ## Updating RLSDK
-Make sure that when using this that you update the offsets in the 'Offsets.hpp' file. To finds the offsets you can use my offset dumper (https://github.com/imattas/rocket-league-offset-dumper)
+Make sure that when using this that you update the offsets in the **Offsets.hpp** file. To finds the offsets you can use my offset dumper (https://github.com/imattas/rocket-league-offset-dumper)
